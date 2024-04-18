@@ -1,3 +1,11 @@
+#This project reads a text file consisting of numbers and words for example '1 app'. it then creates a 
+#pyramid with the numbers, for example:
+#  1
+# 2 3
+#4 5 6
+#The last number of each level of the pyramid correlates to a word in the
+#text file that reveals a secret message. The decode function finds that message.
+
 file = open(r"*path*/coding_qual_input.txt", "r")
 
 message_file = file.read().splitlines()
